@@ -1,0 +1,181 @@
+.navmain {
+    color: f7f7f7;
+    background-color: 77a6b6;
+    margin: 0%;
+}
+
+.navmenu {
+    color: f7f7f7;
+    background-color: 323232;
+    margin: 0%;
+}
+
+.nomarginforfonts {
+    margin: 0%;
+}
+
+.navlink {
+    width: 100%;
+    overflow: auto;
+}
+
+.navlink a {
+    color: f7f7f7;
+    text-decoration: none;
+    font-size: 12 px;
+    width: 25%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navlink a:hover {
+    background-color: 515151;
+}
+
+.navlink a:active {
+    background-color: 5e5e5e;
+}
+
+@media screen and (max-width:500px) {
+    .navlink a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+.sec1 {
+    float: left;
+    background-image: url(/assets/sec1-01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0%;
+    float: left;
+    background-color: 5e5e5e;
+    width: 100%;
+    height: 519px;
+    box-shadow: 0px 10px 80px 0px #323232;
+}
+
+.sec2 {
+    float: left;
+    margin: 0%;
+    float: left;
+    background-color: d0efb1;
+    width: 100%;
+    height: 339px;
+    box-shadow: 0px 10px 80px 0px #d0efb1;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.picsec2 {
+    float: left;
+    width: 50%;
+}
+
+#picsec2-01 {
+    padding-top: 50px;
+    padding-left: 333px;
+}
+
+#picsec2-02 {
+    padding-top: 50px;
+    padding-left: 0px;
+}
+
+.button {
+    background-color: #323232;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    font-size: 12px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.button:hover {
+    opacity: 1
+}
+
+.sec3 {
+    float: left;
+    margin: 0%;
+    background-color: #b3d89c;
+    width: 100%;
+    height: 490px;
+    box-shadow: 0px 10px 80px 0px #b3d89c;
+}
+
+.picsec3 {
+    float: left;
+    width: 50%;
+}
+
+#picsec3-01 {
+    height: 490px;
+    padding-top: 74px;
+    /* background-image: url(/assets/sec3-02.png); */
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.sec4 {
+    float: left;
+    margin: 0%;
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 710px;
+    box-shadow: 0px 10px 80px 0px #f4f4f4;
+}
+
+.aligncenter {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#picsec4-sms {
+    align-content: center;
+    width: 410px;
+    height: 410px;
+}
+
+.footer {
+    color: dbe0df;
+    float: left;
+    margin: 0%;
+    background-color: #9dc3c2;
+    width: 100%;
+    height: 325px;
+    box-shadow: 0px 10px 80px 0px #9dc3c2;
+}
+
+.halffoot {
+    float: left;
+    width: 50%;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+body {
+    margin: 0%;
+}
+
+html {
+    font-family: 'Roboto', monospace;
+}
