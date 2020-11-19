@@ -14,6 +14,15 @@
     margin: 0%;
 }
 
+.homelink {
+    margin: 0%;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 72px;
+    font-weight: 1000;
+}
+
 .navlink {
     width: 100%;
     overflow: auto;
@@ -51,12 +60,11 @@
     background-image: url(/assets/sec1-01.png);
     background-repeat: no-repeat;
     background-position: center;
-    margin: 0%;
+    left: 0;
     float: left;
     background-color: 5e5e5e;
     width: 100%;
     height: 519px;
-    box-shadow: 0px 10px 80px 0px #323232;
 }
 
 .sec2 {
@@ -73,7 +81,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 25%;
+    padding-top: 30px;
 }
 
 .picsec2 {
@@ -87,7 +96,9 @@
 }
 
 #picsec2-02 {
-    padding-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    padding-top: 0px;
     padding-left: 0px;
 }
 
@@ -164,6 +175,97 @@
 }
 
 .halffoot {
+    float: left;
+    width: 50%;
+}
+
+.seccontent {
+    float: left;
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 1200px;
+}
+
+.seccontent2 {
+    float: left;
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 1500px;
+}
+
+.seccontent3 {
+    float: left;
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 600px;
+}
+
+.sec1content {
+    margin-left: 357px;
+    margin-right: 357px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.popupimg {
+    margin: 10px 50px;
+}
+
+.popupimg img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+}
+
+.popupimg img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.center-a {
+    overflow: auto;
+    display: block;
+    width: 512px;
+    height: 512px;
+    position: absolute;
+    text-align: center;
+}
+
+.close {
+    color: #000;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 34px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.arex {
+    color: #323232;
+    font-size: 12px;
+}
+
+.sech2 {
+    padding-top: 40px;
+}
+
+#sms3p {
+    overflow: auto;
+    width: 700px;
+    left: 32.5%;
+    margin: auto;
+    display: block;
+    position: absolute;
+}
+
+.fontweg {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.half {
     float: left;
     width: 50%;
 }
